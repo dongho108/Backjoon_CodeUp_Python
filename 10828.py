@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 
+
 class Stack:
     def __init__(self):
         self.stack = []
