@@ -1,0 +1,5 @@
+str_input=input()
+str_temp=str_input.split(".")
+print("%04d." % int(str_temp[0]), end='')
+print("%02d." % int(str_temp[1]), end='')
+print("%02d" % int(str_temp[2]))
